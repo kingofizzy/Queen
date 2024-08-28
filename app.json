@@ -1,5 +1,5 @@
 {
-    "name":" ᴘʙx ᴄʜᴀᴛʙᴏᴛ ",    
+    "name":"ɴᴏʙɪᴛᴀ ᴄʜᴀᴛ ʙᴏᴛ",    
     "env": {
         "BOT_TOKEN": {
             "description": "telegram bot token here",
