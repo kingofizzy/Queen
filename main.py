@@ -17,8 +17,8 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
 MONGO_URL = os.environ.get("MONGO_URL", None)
 BOT_USERNAME = os.environ.get("BOT_USERNAME","") 
 UPDATE_CHNL = os.environ.get("UPDATE_CHNL","Aaru_Khwahish_Music")
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME","INNOCENT_NOBITA_FIGHTER")
-SUPPORT_GRP = os.environ.get("SUPPORT_GRP","Aaru_Khwahish_Music")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME","ll_NOBITA_BOT_DEVLOPER_ll")
+SUPPORT_GRP = os.environ.get("SUPPORT_GRP","NOBITA_SUPPORT")
 BOT_NAME = os.environ.get("BOT_NAME","CHATBOT")
 START_IMG = os.environ.get("START_IMG","")
 
@@ -186,7 +186,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=START_IMG,
-                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖα∂ ❤️ᥫ᭡፝֟፝֟](https://t.me/INNOCENT_NOBITA_FIGHTER)||**",
+                             caption=f"ʜᴇʏ ʙᴀʙʏ!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ɪꜱ ᴀʟɪᴠᴇ 🥀 ᴀɴᴅ ᴡᴏʀᴋɪɴɢ ꜰɪɴᴇ ᴡɪᴛʜ ᴘᴏɴɢ ᴏꜰ \n➥ `{ms}` ms\n\n**ᴍᴀᴅᴇ ᴡɪᴛʜ ❣️ ʙʏ || [🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖα∂ ❤️ᥫ᭡፝֟፝֟](https://t.me/ll_NOBITA_BOT_DEVLOPER_ll)||**",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
